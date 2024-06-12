@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Agency FB Black';
+    src: url('https://cdn.jsdelivr.net/gh/olivier3lanc/cinematics-resources@master/furiosa/fonts/AgencyFBBlack.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/olivier3lanc/cinematics-resources@master/furiosa/fonts/AgencyFBBlack.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+font-face {
+    font-family: 'Agency FB Regular';
+    src: url('https://cdn.jsdelivr.net/gh/olivier3lanc/cinematics-resources@master/furiosa/fonts/AgencyFB-Reg.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/olivier3lanc/cinematics-resources@master/furiosa/fonts/AgencyFB-Reg.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Agency FB Bold';
+    src: url('https://cdn.jsdelivr.net/gh/olivier3lanc/cinematics-resources@master/furiosa/fonts/AgencyFB-Bold.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/olivier3lanc/cinematics-resources@master/furiosa/fonts/AgencyFB-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+html,
+body {
+    font-family: 'Agency FB Regular', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: black;
+    scrollbar-color: #ffcd1c black;
+    min-height: 130vh;
+}
