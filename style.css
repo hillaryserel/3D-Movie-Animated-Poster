@@ -164,3 +164,32 @@ main {
 #furiosa_poster__george strong {
     font-family: 'Agency FB Black';
 }
+
+#furiosa_poster__mad_max_saga {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Agency FB Black';
+    font-size: 5vmin;
+    line-height: 1em;
+    text-align: center;
+    white-space: nowrap;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    position: absolute;
+    top: 48%;
+    left: 0%;
+    width: 100%;
+    margin: 0;
+    transform: translateZ(10vmin);
+    /* transform-style: preserve-3d; */
+    /* text-shadow: 0px 0px 4vmin rgba(0,0,0,0.4); */
+}
+
+#furiosa_poster__mad_max_saga > span {
+    display: flex;
+    background-image: url('https://cdn.jsdelivr.net/gh/olivier3lanc/cinematics-resources@master/furiosa/medias/rust.jpg');
+    background-size: cover;
+    background-position: center;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
