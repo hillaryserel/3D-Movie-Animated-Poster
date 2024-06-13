@@ -129,3 +129,18 @@ main {
     transform-style: preserve-3d;
     margin: 0;
 }
+
+#furiosa_poster__chris {
+    font-family: 'Agency FB Black';
+    font-size: 2.6vmin;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #00100b;
+    text-shadow: 0px 0px 3vmin rgba(0,0,0,0.7);
+    position: absolute;
+    top: 5%;
+    right: 6%;
+    transform: translateZ(5vmin);
+    transform-style: preserve-3d;
+    margin: 0;
+}
