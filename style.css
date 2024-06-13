@@ -144,3 +144,19 @@ main {
     transform-style: preserve-3d;
     margin: 0;
 }
+
+#furiosa_poster__george {
+    font-family: 'Agency FB Regular';
+    font-size: 1.6vmin;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    letter-spacing: 0.4em;
+    width: 100%;
+    position: absolute;
+    top: 26%;
+    left: 0%;
+    transform: translateZ(5vmin);
+    transform-style: preserve-3d;
+    margin: 0;
+}
