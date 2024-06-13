@@ -160,3 +160,7 @@ main {
     transform-style: preserve-3d;
     margin: 0;
 }
+
+#furiosa_poster__george strong {
+    font-family: 'Agency FB Black';
+}
